@@ -5,7 +5,7 @@ spring:
 # 开发环境,使用 --- 分割每个环境
 ---
 server:
-  port: 8888
+  port: 7777
 spring:
   profiles: dev
 # 生产环境,使用 --- 分割每个环境
