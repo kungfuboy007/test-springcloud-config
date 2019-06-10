@@ -1,0 +1,16 @@
+# 激活开发环境
+spring:
+  profiles:
+    active: dev
+# 开发环境,使用 --- 分割每个环境
+---
+server:
+  port: 7777
+spring:
+  profiles: dev
+# 生产环境,使用 --- 分割每个环境
+---
+server:
+  port: 9090
+spring:
+  profiles: pro
